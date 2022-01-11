@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trainingCenter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="Report.xsd">
+
+    <students>
+        <student>
+            <id>1</id>
+            <fullName>Alexander Sergeev</fullName>
+            <city>Saratov</city>
+            <email>sasha@mail.ru</email>
+            <startDate>2020-06-04</startDate>
+            <contract>true</contract>
+            <programName>full program</programName>
+        </student>
+        <student>
+            <id>2</id>
+            <fullName>Boris Romanov</fullName>
+            <city>Tver</city>
+            <email>tverskoy@rambler.ru</email>
+            <startDate>2020-01-11</startDate>
+            <contract>true</contract>
+            <programName>full program</programName>
+        </student>
+        <student>
+            <id>3</id>
+            <fullName>Vadim Petrov</fullName>
+            <city>Saratov</city>
+            <email>trud@yandex.ru</email>
+            <startDate>2020-07-20</startDate>
+            <contract>false</contract>
+            <programName>special program 1</programName>
+        </student>
+        <student>
+            <id>4</id>
+            <fullName>Ivan Fedorov</fullName>
+            <city>Omsk</city>
+            <email>sibir@mail.ru</email>
+            <startDate>2020-05-05</startDate>
+            <contract>false</contract>
+            <programName>short program</programName>
+        </student>
+    </students>
+
+    <programs>
+        <program>
+            <id>1</id>
+            <programName>full program</programName>
+            <author>Mister Coder</author>
+            <createDate>1937-12-12</createDate>
+        </program>
+        <program>
+            <id>2</id>
+            <programName>short program</programName>
+            <author>Aleksey Vishnevskiy</author>
+            <createDate>2017-04-05</createDate>
+        </program>
+        <program>
+            <id>3</id>
+            <programName>special program 1</programName>
+            <author>Vlad Borshev</author>
+            <createDate>2005-03-12</createDate>
+        </program>
+    </programs>
+
+    <courses>
+        <course>
+            <id>1</id>
+            <courseName>"Overview of Eclipse IDE" course</courseName>
+            <author>Andrei Kuznetsov</author>
+            <createDate>2015-02-20</createDate>
+        </course>
+        <course>
+            <id>2</id>
+            <courseName>"Java Basics" course</courseName>
+            <author>Andrei Kuznetsov</author>
+            <createDate>2015-05-15</createDate>
+        </course>
+        <course>
+            <id>3</id>
+            <courseName>"Java advanced abilities" course</courseName>
+            <author>Mikhail Osipov</author>
+            <createDate>2015-01-27</createDate>
+        </course>
+        <course>
+            <id>4</id>
+            <courseName>"XML Language"</courseName>
+            <author>Andrei Kuznetsov</author>
+            <createDate>2015-06-30</createDate>
+        </course>
+        <course>
+            <id>5</id>
+            <courseName>"XSLT and XPath Languages"</courseName>
+            <author>Vasily Petrov</author>
+            <createDate>2016-02-18</createDate>
+
+        </course>
+        <course>
+            <id>6</id>
+            <courseName>"Struts Framework Technologies"</courseName>
+            <author>Vasily Petrov</author>
+            <createDate>2015-09-15</createDate>
+        </course>
+        <course>
+            <id>7</id>
+            <courseName>"Software producing process"</courseName>
+            <author>Mikhail Osipov</author>
+            <createDate>2018-10-03</createDate>
+        </course>
+        <course>
+            <id>8</id>
+            <courseName>"Software developing process"</courseName>
+            <author>Andrei Kuznetsov</author>
+            <createDate>2019-04-25</createDate>
+        </course>
+    </courses>
+
+    <tasks>
+        <task taskType="theory">
+            <id>1</id>
+            <name>Overview of Eclipse IDE</name>
+            <duration>4</duration>
+        </task>
+        <task taskType="theory">
+            <id>2</id>
+            <name>Learning the Java Language Basics</name>
+            <duration>12</duration>
+        </task>
+        <task taskType="practice">
+            <id>3</id>
+            <name>Practical Task</name>
+            <duration>4</duration>
+        </task>
+        <task taskType="theory">
+            <id>4</id>
+            <name>Learning the Java Language advanced features</name>
+            <duration>17</duration>
+        </task>
+        <task taskType="practice">
+            <id>5</id>
+            <name>Practical Task</name>
+            <duration>16</duration>
+        </task>
+        <task taskType="theory">
+            <id>6</id>
+            <name>Learning XML Language</name>
+            <duration>6</duration>
+        </task>
+        <task taskType="practice">
+            <id>7</id>
+            <name>Practical Task</name>
+            <duration>8</duration>
+        </task>
+        <task taskType="theory">
+            <id>8</id>
+            <name>Learning XSLT and XPath Basics</name>
+            <duration>14</duration>
+        </task>
+        <task taskType="practice">
+            <id>9</id>
+            <name>Equipment Stylesheets</name>
+            <duration>8</duration>
+        </task>
+        <task taskType="theory">
+            <id>10</id>
+            <name>Struts Framework Fundamentals</name>
+            <duration>8</duration>
+        </task>
+        <task taskType="practice">
+            <id>11</id>
+            <name>Struts Framework Task</name>
+            <duration>40</duration>
+        </task>
+        <task taskType="practice">
+            <id>12</id>
+            <name>Java Message Service Task</name>
+            <duration>20</duration>
+        </task>
+        <task taskType="theory">
+            <id>13</id>
+            <name>Mastering Microsoft Project</name>
+            <duration>3</duration>
+        </task>
+        <task taskType="practice">
+            <id>14</id>
+            <name>MS Project Practical Task</name>
+            <duration>8</duration>
+        </task>
+        <task taskType="theory">
+            <id>15</id>
+            <name>Software development process. Development team and its structure</name>
+            <duration>12</duration>
+        </task>
+        <task taskType="practice">
+            <id>16</id>
+            <name>Team Project</name>
+            <duration>80</duration>
+        </task>
+    </tasks>
+    
+    <courseTasks>
+        <courseTask>
+            <courseID>1</courseID>
+            <taskID>1</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>2</courseID>
+            <taskID>2</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>2</courseID>
+            <taskID>3</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>3</courseID>
+            <taskID>4</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>3</courseID>
+            <taskID>5</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>4</courseID>
+            <taskID>6</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>4</courseID>
+            <taskID>7</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>5</courseID>
+            <taskID>8</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>5</courseID>
+            <taskID>9</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>6</courseID>
+            <taskID>10</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>6</courseID>
+            <taskID>11</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>6</courseID>
+            <taskID>12</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>7</courseID>
+            <taskID>13</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>7</courseID>
+            <taskID>14</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>7</courseID>
+            <taskID>15</taskID>
+        </courseTask>
+        <courseTask>
+            <courseID>8</courseID>
+            <taskID>16</taskID>
+        </courseTask>
+    </courseTasks>
+
+    <studentTasks>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>1</taskID>
+            <theoryStatus>In Progress</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>2</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>3</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>4</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>5</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>6</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>7</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>8</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>9</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>10</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>11</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>12</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>13</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>14</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>15</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>1</studentID>
+            <taskID>16</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>1</taskID>
+            <theoryStatus>Complete</theoryStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>2</taskID>
+            <theoryStatus>Complete</theoryStatus>
+            <rate>4</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>3</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>4</taskID>
+            <theoryStatus>Complete</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>5</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>4</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>6</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>7</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>8</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>9</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>10</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>11</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>12</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>13</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>14</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>15</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>2</studentID>
+            <taskID>16</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>1</taskID>
+            <theoryStatus>Complete</theoryStatus>
+            <rate>4</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>2</taskID>
+            <theoryStatus>Complete</theoryStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>3</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>4</taskID>
+            <theoryStatus>Complete</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>5</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>3</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>6</taskID>
+            <theoryStatus>Complete</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>7</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>4</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>8</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>9</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>10</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>11</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>12</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>13</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>14</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>15</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>3</studentID>
+            <taskID>16</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>1</taskID>
+            <theoryStatus>Complete</theoryStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>2</taskID>
+            <theoryStatus>Complete</theoryStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>3</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>4</taskID>
+            <theoryStatus>Complete</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>5</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>3</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>6</taskID>
+            <theoryStatus>Complete</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>7</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>8</taskID>
+            <theoryStatus>Complete</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>9</taskID>
+            <practiceStatus>Complete</practiceStatus>
+            <rate>5</rate>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>10</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>11</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>12</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>13</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>14</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>15</taskID>
+            <theoryStatus>Not Started</theoryStatus>
+        </studentTask>
+        <studentTask>
+            <studentID>4</studentID>
+            <taskID>16</taskID>
+            <practiceStatus>Not Started</practiceStatus>
+        </studentTask>
+    </studentTasks>
+
+    <programCourses>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>1</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>2</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>3</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>4</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>5</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>6</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>7</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>1</programID>
+            <courseID>8</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>2</programID>
+            <courseID>1</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>2</programID>
+            <courseID>2</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>2</programID>
+            <courseID>3</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>2</programID>
+            <courseID>7</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>2</programID>
+            <courseID>8</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>3</programID>
+            <courseID>7</courseID>
+        </programCourse>
+        <programCourse>
+            <programID>3</programID>
+            <courseID>8</courseID>
+        </programCourse>
+    </programCourses>
+
+</trainingCenter>

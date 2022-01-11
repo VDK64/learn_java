@@ -1,0 +1,2 @@
+Hello, git!
+This is for a second commit.
